@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Tweet } from "./Components/Tweet"
+import { Tweet } from "./components/Tweet"
 
 import './App.css';
 
