@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Tweet } from "./Components/Tweet"
 
+import './App.css';
+
 function App() {
   const [tweets, setTweets] = useState<string[]>([
     'Tweet 1',
