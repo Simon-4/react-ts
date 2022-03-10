@@ -21,7 +21,17 @@ function App() {
         return <Tweet text={tweet} />
       })}
 
-      <button onClick={createTweet}>Adicionar tweet</button>
+      <button
+        onClick={createTweet}
+        style={{
+          backgroundColor: '#8254e6',
+          border: 0,
+          padding: '6px 12px',
+          color: '#fff'
+        }}
+      >
+        Adicionar tweet
+      </button>
     </div>
   );
 }
